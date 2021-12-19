@@ -49,4 +49,6 @@ nav li:hover a {
 
 .menu-sub {
   position: absolute;
+  background: #444;
+  width: 100%;
 }

@@ -1,1 +1,9 @@
+const { Report } = require("puzzle1.json")
+const reportArray = Report.split(" ")
+let result = 0
 
+let i = 1
+while(i < (reportArray.length - 1)) {
+  if (reportArray[i] > reportArray[i - 1]) { result++ }
+  i++
+}

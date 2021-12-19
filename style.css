@@ -41,9 +41,6 @@ nav a {
 
 nav li:hover {
   background: #444;
-}
-
-nav a:hover {
   color: #fff;
 }
 

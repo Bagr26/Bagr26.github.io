@@ -55,5 +55,9 @@ nav li:hover a {
 }
 
 nav li:hover .menu-sub {
-  display: block
+  display: block;
+}
+
+.menu-sub li {
+  display: block;
 }

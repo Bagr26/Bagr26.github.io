@@ -1,4 +1,4 @@
-const { Report } = require("puzzle1.json")
+import { Report } from "puzzle1.json";
 var resultParagraph = document.getElementById("result1");
 
 resultParagraph.textContent += "This just got added";

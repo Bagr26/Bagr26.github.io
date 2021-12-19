@@ -14,7 +14,7 @@ while(i < reportArray.length) {
   i++
 }
 
-let i = 1
+i = 1
 while(i < ReportTest.length) {
   if (ReportTest[i] > ReportTest[i - 1]) {
     resulttest++;

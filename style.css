@@ -52,6 +52,7 @@ nav li:hover a {
   background: #444;
   width: 100%;
   display: none;
+  color: #fff;
 }
 
 nav li:hover .menu-sub {
@@ -60,4 +61,5 @@ nav li:hover .menu-sub {
 
 .menu-sub li {
   display: block;
+  padding: 0;
 }

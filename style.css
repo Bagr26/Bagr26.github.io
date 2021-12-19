@@ -25,6 +25,7 @@ nav ul {
   padding: 0;
   list-style: none;
   position: relative;
+  text-align: left;
 }
 
 nav li {
@@ -60,5 +61,8 @@ nav li:hover .menu-sub {
 
 .menu-sub li {
   display: block;
+}
+
+.menu-sub a {
   padding: 0;
 }

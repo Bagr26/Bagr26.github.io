@@ -7,7 +7,7 @@ let negativeresult= 0
 
 console.log(reportArray.length)
 
-let i = 1
+let i = 0
 while(i < reportArray.length) {
   if (reportArray[i] > reportArray[i - 1]) {
     result++;

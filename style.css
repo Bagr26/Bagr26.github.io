@@ -53,3 +53,7 @@ nav li:hover a {
   width: 100%;
   display: none;
 }
+
+nav li:hover .menu-sub {
+  display: block
+}

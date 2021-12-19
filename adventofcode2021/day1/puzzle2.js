@@ -11,8 +11,8 @@ let i2 = 0
 let j
 let k
 while(i2 < reportArray2.length) {
-  j = ParseInt(reportArray2[i2]) + ParseInt(reportArray2[i2 - 1]) + ParseInt(reportArray2[i2 - 2])
-  k = ParseInt(reportArray2[i2 - 1]) + ParseInt(reportArray2[i2 - 2]) + ParseInt(reportArray2[i2 - 3])
+  j = parseInt(reportArray2[i2]) + parseInt(reportArray2[i2 - 1]) + parseInt(reportArray2[i2 - 2])
+  k = parseInt(reportArray2[i2 - 1]) + parseInt(reportArray2[i2 - 2]) + parseInt(reportArray2[i2 - 3])
   if (j > k) {
     result2++;
   }
@@ -22,8 +22,8 @@ while(i2 < reportArray2.length) {
 
 i2 = 0
 while(i2 < reportArray2.length) {
-  j = ParseInt(reportArray2[i2]) + ParseInt(reportArray2[i2 - 1]) + ParseInt(reportArray2[i2 - 2])
-  k = ParseInt(reportArray2[i2 - 1]) + ParseInt(reportArray2[i2 - 2]) + ParseInt(reportArray2[i2 - 3])
+  j = parseInt(reportArray2[i2]) + parseInt(reportArray2[i2 - 1]) + parseInt(reportArray2[i2 - 2])
+  k = parseInt(reportArray2[i2 - 1]) + parseInt(reportArray2[i2 - 2]) + parseInt(reportArray2[i2 - 3])
   if (j < k) {
     negativeresult2++;
   }

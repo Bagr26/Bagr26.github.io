@@ -6,6 +6,8 @@ const reportArray = Report.split(" ")
 let result = 0
 let resulttest = 0
 
+console.log(reportArray.length)
+
 let i = 1
 while(i < reportArray.length) {
   if (reportArray[i] > reportArray[i - 1]) {

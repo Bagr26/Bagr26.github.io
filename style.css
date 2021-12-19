@@ -49,6 +49,7 @@ nav li:hover a {
 
 .menu-sub {
   position: absolute;
+  left: 0;
   background: #444;
   width: 100%;
   display: none;

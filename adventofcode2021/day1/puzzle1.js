@@ -5,7 +5,7 @@ const reportArray = Report.split(" ")
 let result = 0
 
 let i = 1
-while(i < (reportArray.length - 1)) {
+while(i < reportArray.length) {
   if (reportArray[i] > reportArray[i - 1]) { result++ }
   i++
 }

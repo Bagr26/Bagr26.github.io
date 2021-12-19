@@ -15,7 +15,7 @@ while(i < reportArray.length) {
   i++
 }
 
-i = 1
+i = 0
 while(i < reportArray.length) {
   if (reportArray[i] < reportArray[i - 1]) {
     negativeresult++;

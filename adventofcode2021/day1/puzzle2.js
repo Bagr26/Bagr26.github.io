@@ -8,18 +8,26 @@ let negativeresult2= 0
 console.log(reportArray2.length)
 
 let i2 = 0
+let j
+let k
 while(i2 < reportArray2.length) {
-  if ((reportArray2[i2] + reportArray2[i2 - 1] + reportArray2[i2 - 2]) > (reportArray2[i2 - 1] + reportArray2[i2 - 2] + reportArray2[i2 - 3])) {
+  j = reportArray2[i2] + reportArray2[i2 - 1] + reportArray2[i2 - 2]
+  k = reportArray2[i2 - 1] + reportArray2[i2 - 2] + reportArray2[i2 - 3]
+  if (j > k) {
     result2++;
   }
+  console.log(j, k)
   i2++
 }
 
 i2 = 0
 while(i2 < reportArray2.length) {
-  if ((reportArray2[i2] + reportArray2[i2 - 1] + reportArray2[i2 - 2]) < (reportArray2[i2 - 1] + reportArray2[i2 - 2] + reportArray2[i2 - 3])) {
+  j = reportArray2[i2] + reportArray2[i2 - 1] + reportArray2[i2 - 2]
+  k = reportArray2[i2 - 1] + reportArray2[i2 - 2] + reportArray2[i2 - 3]
+  if (j < k) {
     negativeresult2++;
   }
+  console.log(j, k)
   i2++
 }
 

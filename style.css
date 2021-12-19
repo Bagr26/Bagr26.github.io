@@ -51,4 +51,5 @@ nav li:hover a {
   position: absolute;
   background: #444;
   width: 100%;
+  display: none;
 }

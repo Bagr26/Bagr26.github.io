@@ -23,5 +23,5 @@ while(i < reportArray.length) {
   i++
 }
 
-resultParagraph.textContent += result;
+resultParagraph.textContent += (result + 1);
 console.log(negativeresult)

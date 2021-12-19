@@ -1,4 +1,8 @@
 const { Report } = require("puzzle1.json")
+var resultParagraph = document.getElementById("p");
+
+resultParagraph.textContent += "This just got added";
+
 const reportArray = Report.split(" ")
 let result = 0
 

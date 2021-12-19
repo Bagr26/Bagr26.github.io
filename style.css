@@ -11,6 +11,7 @@ ul {
 ul li {
   list-style: none;
   display: inline-block;
+  float: left;
 }
 
 ul li a {
@@ -25,4 +26,6 @@ h1 {
 
 h2 {
   text-align: center;
+  font-site: 14px;
+  font-family: arial;
 }

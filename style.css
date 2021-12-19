@@ -81,3 +81,7 @@ nav li:hover .menu-sub {
   margin-top: 0;
 }
 
+.menu-col {
+  float: left;
+  width: 25%;
+}

@@ -10,6 +10,7 @@ console.log(reportArray2.length)
 let i2 = 0
 while(i2 < reportArray2.length) {
   if ((reportArray2[i] + reportArray2[i - 1] + reportArray2[i - 2]) > (reportArray2[i - 1] + reportArray2[i - 2] + reportArray2[i - 3])) {
+    console.log((reportArray2[i] + reportArray2[i - 1] + reportArray2[i - 2]), (reportArray2[i - 1] + reportArray2[i - 2] + reportArray2[i - 3]))
     result2++;
   }
   i2++

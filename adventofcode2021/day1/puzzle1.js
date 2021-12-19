@@ -5,8 +5,12 @@ const reportArray = Report.split(" ")
 let result = 0
 
 let i = 1
+let j = 0
 while(i < reportArray.length) {
-  if (reportArray[i] > reportArray[i - 1]) { result++ }
+  if (reportArray[i] > reportArray[i - 1]) {
+    result++;
+  }
+  j = i
   i++
 }
 

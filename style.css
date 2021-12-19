@@ -10,6 +10,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;

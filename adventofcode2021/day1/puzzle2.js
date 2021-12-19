@@ -5,7 +5,7 @@ const reportArray2 = Report2.split("  ")
 let result2 = 0
 let negativeresult2= 0
 
-console.log(reportArray.length)
+console.log(reportArray2.length)
 
 let i2 = 0
 while(i2 < reportArray2.length) {
@@ -20,7 +20,7 @@ while(i2 < reportArray2.length) {
   if ((reportArray2[i] + reportArray2[i - 1] + reportArray2[i - 2]) < (reportArray2[i - 1] + reportArray2[i - 2] + reportArray2[i - 3])) {
     negativeresult2++;
   }
-  i++
+  i2++
 }
 
 resultParagraph2.textContent += result2;
